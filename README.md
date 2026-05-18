@@ -11,8 +11,6 @@ Along with prediction, the project uses Groq AI API to provide disease explanati
 - Plant disease prediction using CNN
 - Grad-CAM explainability visualization
 - AI-generated disease analysis
-- Modern animated frontend UI
-- Loading animations
 - Dashboard for prediction analytics
 - SQLite database integration
 - Flask backend API

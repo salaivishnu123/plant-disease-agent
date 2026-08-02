@@ -55,4 +55,27 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    import os
+    import socket
+
+    from waitress import serve
+
+    def get_local_ip():
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        try:
+            s.connect(("8.8.8.8", 80))
+            return s.getsockname()[0]
+        except Exception:
+            return "127.0.0.1"
+        finally:
+            s.close()
+
+    port = int(os.environ.get("PORT", 5000))
+    local_ip = get_local_ip()
+    print("=" * 60)
+    print(f"  Plant Disease Detector running (production mode via waitress)")
+    print(f"  On this PC:        http://127.0.0.1:{port}")
+    print(f"  On your network:   http://{local_ip}:{port}   (e.g. from your phone, same wifi)")
+    print("  Press CTRL+C to stop")
+    print("=" * 60)
+    serve(app, host="0.0.0.0", port=port)

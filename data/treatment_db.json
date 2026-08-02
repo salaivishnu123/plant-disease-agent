@@ -1,0 +1,66 @@
+{
+  "_comment": "Keys must exactly match the 'Plant___Disease' folder names your trained model uses (see models/class_indices.json after training). These starter entries are examples for a few classes per crop — expand this file to cover every class you actually train on. Content here is general agronomic guidance, not a substitute for local agricultural extension advice.",
+
+  "Mango___Anthracnose": {
+    "symptoms": "Dark, sunken, irregular spots on leaves, twigs, and fruit; spots may merge and cause leaf blight in humid weather.",
+    "causes": "Fungus Colletotrichum gloeosporioides, favored by high humidity and rain during flowering/fruiting.",
+    "organic_treatment": "Remove and destroy infected leaves/twigs; spray neem oil (2%) or Bordeaux mixture at 7-10 day intervals during wet periods.",
+    "chemical_treatment": "Carbendazim or Mancozeb-based fungicide sprays as per label dosage, especially before flowering.",
+    "fertilizer": "Balanced NPK; avoid excess nitrogen, which promotes soft, disease-prone growth.",
+    "watering": "Avoid overhead irrigation late in the day; water at the base to keep foliage dry.",
+    "prevention": "Prune for good airflow, remove fallen debris, apply preventive copper sprays before the rainy season.",
+    "future_care": "Monitor new flushes closely during monsoon; repeat preventive sprays each season."
+  },
+  "Mango___Healthy": {
+    "symptoms": "No visible lesions, discoloration, or deformation; leaf color and texture are uniform.",
+    "causes": "N/A",
+    "organic_treatment": "No treatment needed.",
+    "chemical_treatment": "No treatment needed.",
+    "fertilizer": "Continue standard seasonal NPK schedule for mango.",
+    "watering": "Maintain regular irrigation matched to the current growth stage.",
+    "prevention": "Continue routine monitoring and orchard sanitation.",
+    "future_care": "Re-check periodically, especially after weather changes."
+  },
+
+  "Coconut___Bud_Rot": {
+    "symptoms": "Yellowing and wilting of the spear leaf, foul smell from the crown, eventual collapse of the bud region.",
+    "causes": "Phytophthora palmivora fungus, spreads rapidly in prolonged wet/humid conditions.",
+    "organic_treatment": "Remove and burn severely affected tissue; drench crown with Bordeaux mixture or neem-based biofungicide.",
+    "chemical_treatment": "Copper oxychloride or Metalaxyl-MZ drenching in the crown region as per local agricultural extension guidance.",
+    "fertilizer": "Balanced palm-specific NPK plus micronutrients (boron, magnesium) to support recovery.",
+    "watering": "Improve drainage around the base; avoid waterlogging.",
+    "prevention": "Ensure good drainage, avoid injuring the crown, apply preventive copper spray before monsoon.",
+    "future_care": "Inspect crown region monthly during rainy season; isolate severely affected palms."
+  },
+  "Coconut___Gray_Leaf_Spot": {
+    "symptoms": "Small gray-to-brown spots with yellow halos on leaflets, coalescing into larger blighted patches.",
+    "causes": "Pestalotiopsis palmarum fungus, worsened by nutrient deficiency and water stress.",
+    "organic_treatment": "Remove heavily infected leaflets; apply neem oil spray at first sign of spotting.",
+    "chemical_treatment": "Mancozeb or Chlorothalonil-based fungicide as per label instructions.",
+    "fertilizer": "Correct potassium and magnesium deficiencies, which increase susceptibility.",
+    "watering": "Maintain consistent irrigation; avoid drought stress.",
+    "prevention": "Balanced fertilization and removal of dead fronds to reduce fungal spore sources.",
+    "future_care": "Recheck new fronds each month during dry-to-wet season transitions."
+  },
+
+  "Areca_Nut___Healthy": {
+    "symptoms": "Uniform green leaf color, no lesions, spots, or wilting.",
+    "causes": "N/A",
+    "organic_treatment": "No treatment needed.",
+    "chemical_treatment": "No treatment needed.",
+    "fertilizer": "Continue standard seasonal NPK schedule for areca palms.",
+    "watering": "Maintain regular irrigation for the current season.",
+    "prevention": "Continue routine monitoring and plantation sanitation.",
+    "future_care": "Re-check periodically, especially after heavy rain."
+  },
+  "Areca_Nut___Koleroga": {
+    "symptoms": "Water-soaked lesions on nuts and leaves that turn brown-black; affected nuts drop prematurely (also known as fruit rot / mahali disease).",
+    "causes": "Phytophthora meadii/palmivora fungus, spreads fast in wet, humid, poorly ventilated plantations.",
+    "organic_treatment": "Spray 1% Bordeaux mixture on bunches before monsoon onset; remove and destroy fallen infected nuts.",
+    "chemical_treatment": "Copper oxychloride spray on bunches as per local agricultural extension recommendations.",
+    "fertilizer": "Balanced NPK with adequate potassium to strengthen plant resistance.",
+    "watering": "Improve plantation drainage; avoid water stagnation around the base.",
+    "prevention": "Thin out dense plantings for airflow, apply preventive Bordeaux spray before each monsoon.",
+    "future_care": "Repeat preventive spraying every monsoon season; monitor bunches weekly during wet months."
+  }
+}

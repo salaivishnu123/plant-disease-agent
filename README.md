@@ -7,6 +7,29 @@ good accuracy without a GPU or huge dataset.
 
 ---
 
+## 🚀 Live Demo
+
+**[🌐 Try the live app on Streamlit Community Cloud](https://plantdiseasedetector-app-mcqyx2cexyhr2yosfgjsw4.streamlit.app/)**
+
+Upload a plant leaf image and get instant disease detection, treatment recommendations, and AI model explainability (Grad-CAM visualization).
+
+---
+
+## Deployment
+
+**Platform:** Streamlit Community Cloud  
+**Python Runtime:** 3.11  
+**Key Dependencies:** TensorFlow 2.15+, Streamlit 1.28+, MobileNetV2 backbone
+
+### Run locally:
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+Then open `http://localhost:8501` in your browser.
+
+---
+
 ## 1. Why the scope was narrowed
 
 Training one model across dozens of species/diseases (like the full
